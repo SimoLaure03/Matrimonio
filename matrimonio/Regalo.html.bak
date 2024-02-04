@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+ <style>
+    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Partecipazione</title>
+    <link rel="stylesheet" href="css.css">
+</head>
+<body>
+    <barraMenu>
+    <div class="navbar">
+        <a href="Matrimonio.html"><b>Invito</b></a>
+        <a href="Evento.html"><b>Evento</b></a>
+        <b>Regalo</b>
+    </div>
+	</barraMenu>
+	<corsivo><h1>Idea regalo</h1></corsivo>
+	<p>Siamo pronti a partire per un viaggio incredibile e volevamo darvi la possibilità di farne parte! 😄 </p>
+	<h2>Iban :	IT70J0103003303000000753788    Intestato a: Lauretani Daniele, Totaro Graziella </h2>
+	<p>E grazie per non averci regalato cornici... abbiamo già abbastanza "quadri" nella nostra vita!</p>
+   <p>Con amore,</p>
+   <p>Daniele & Graziella</p>
+    <script>
+
+    </script>
+
+</body>
+</html>

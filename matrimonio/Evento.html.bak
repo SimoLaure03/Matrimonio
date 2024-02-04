@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+ <style>
+.image-frame {
+            display: flex;
+            align-items: center; /* Centra verticalmente l'immagine e il testo */
+        }
+
+        /* Stile per l'immagine */
+        .image-frame img {
+            max-width: 40%; /* Assicura che l'immagine non superi la larghezza della cornice */
+            margin-right: 10px; /* Aggiunge uno spazio tra l'immagine e il testo */
+        }
+
+        /* Stile per il testo a destra */
+        .image-frame p {
+    color: #cda434;
+    line-height: 1.6;
+    font-size: 30px;
+        }
+    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Partecipazione</title>
+    <link rel="stylesheet" href="css.css">
+</head>
+<body>
+    <barraMenu>
+    <div class="navbar">
+        <a href="Matrimonio.html"><b>Invito</b></a>
+        <b>Evento</b>
+        <a href="Regalo.html"><b>Regalo</b></a>
+    </div>
+	</barraMenu>
+		<corsivo><h1>Scorpion Beach</h1></corsivo>
+<div class="image-frame">
+    <img src="Scorpion.jpg" alt="Scorpion">
+    <p>Ci troviamo a Ladispoli più precisamente <a href="https://www.google.com/maps/place/Scorpion+Beach/@41.9516134,12.0657878,17z/data=!3m1!4b1!4m6!3m5!1s0x1328ab29e3465e9d:0x8f3b78d3b2c2ad88!8m2!3d41.9516134!4d12.0657878!16s%2Fg%2F11bzq3g9qt?entry=ttu" target="_blank">qui</a>
+	, la cerimonia avrà inizio alle ore 19:00 siete pregati di essere tutti puntuali!!!</p>
+</div>
+<h2>Nota bene:</h2>
+<p>Gli uomini sono graditi con una semplice camicetta(senza cravatta o altro)</p>
+    <script>
+    </script>
+</body>
+</html>

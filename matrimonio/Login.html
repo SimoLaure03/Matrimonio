@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+ <style>
+ #loginContainer {
+    padding: 20px;
+    margin: auto; /* centra orizzontalmente */
+    width: 300px; /* larghezza del rettangolo */
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    }
+ </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="css.css">
+</head>
+<body>
+    <barraMenu>
+    <div class="navbar">
+    </div>
+	<div id="loginContainer">
+<form id="loginForm">
+    <label for="username">Nome Utente:</label>
+    <input type="text" id="username" name="username" required><br><br>
+
+    <label for="password">Password:</label>
+    <input type="password" id="password" name="password" required><br><br>
+
+    <input type="button" value="Accedi" onclick="validateLogin()">
+  </form>
+ </div>
+  <script>
+    function validateLogin() {
+      var username = document.getElementById("username").value;
+      var password = document.getElementById("password").value;
+      if (username === "7Luglio" && password === "ForzaRoma") {
+        window.location.href = "Matrimonio.html";
+      } else {
+        alert("Credenziali errate. Per favore, riprova.");
+      }
+    }
+  </script>
+
+</body>
+</html>
